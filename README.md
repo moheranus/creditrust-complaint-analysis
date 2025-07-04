@@ -16,5 +16,5 @@ This repository contains the implementation of an intelligent complaint-answerin
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/creditrust-complaint-analysis.git
+   git clone https://github.com/moheranus/creditrust-complaint-analysis.git
    cd creditrust-complaint-analysis
