@@ -1,0 +1,5 @@
+
+### EDA and Preprocessing Summary
+The CFPB dataset was loaded and analyzed to understand complaint distribution and narrative characteristics. The dataset contains complaints across various products, with a significant portion belonging to the five target categories: Credit Card, Personal Loan, BNPL, Savings Account, and Money Transfers. The product distribution showed that Credit Card and Consumer Loan complaints dominate, as visualized in a bar plot. Narrative lengths varied widely, with a median of approximately 150 words, but some narratives were as short as 10 words or exceeded 1000 words, indicating the need for chunking in later tasks. Approximately 30% of records lacked narratives and were excluded.
+
+The dataset was filtered to include only the five specified products, and records with missing narratives were removed, resulting in a cleaned dataset of approximately 200,000 records (exact number depends on the dataset version). Text cleaning involved lowercasing, removing special characters, and normalizing whitespace to improve embedding quality. The cleaned dataset was saved as `filtered_complaints.csv` for use in subsequent tasks.
